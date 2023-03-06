@@ -1,0 +1,15 @@
+@import '_mixins';
+.header{
+    background-color: aliceblue;
+    padding: 1rem;
+    &__wrapper{
+        width: 80%;
+        margin: auto;
+    }
+    &__h1{
+        color: lightgrey;
+        width: 100%;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+}
